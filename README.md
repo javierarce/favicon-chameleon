@@ -3,6 +3,10 @@ Favicon chameleon
 
 Makes your tab dissapear when nobody is paying attention.
 
+### Demo 
+
+[Try before you buy](http://javierarce.github.io/jquery.favicon.chameleon).
+
 ### Installation
 
 1. Add the ```jquery.favicon.chameleon.js``` file to your HTML page.
