@@ -7,6 +7,9 @@ Makes your tab dissapear when nobody is paying attention.
 
 [Try before you buy](http://javierarce.github.io/jquery.favicon.chameleon).
 
+
+![favicon chameleon](tab.gif)
+
 ### Installation
 
 1. Add the ```jquery.favicon.chameleon.js``` file to your HTML page.
