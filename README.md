@@ -1,7 +1,7 @@
 Favicon chameleon
 ==================
 
-Makes your tab dissapear when nobody is paying attention.
+Makes your tab disappear when nobody is paying attention.
 
 ### Demo 
 
@@ -18,9 +18,9 @@ Makes your tab dissapear when nobody is paying attention.
 ```js
 $(function() {
     $(this).faviconChameleon({
-services: ["twitter", "gmail", "tumblr"]
-});
+      services: ["twitter", "gmail", "tumblr"]
     });
+});
 ```
 
 ----
