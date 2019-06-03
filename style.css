@@ -1,0 +1,14 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+  margin: 2em;
+}
+
+a {
+  display: block;
+}
+
+p {
+  margin: 0 0 1em 0;
+}
