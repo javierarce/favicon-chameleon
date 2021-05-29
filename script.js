@@ -3,12 +3,6 @@ const SERVICES = {
     let title = 'Tumblr'
     let favicon = 'favicons/tumblr.ico'
 
-    let count = Math.round(Math.random() * 10)
-
-    if (count > 5) {
-      title = `(${count}) Tumblr`
-    }
-
     return {
       title, favicon
     }
@@ -37,7 +31,7 @@ const SERVICES = {
       emailCount = `${count}+`
     }
 
-    let favicon = `${gmailIcon}${count}.ico`
+    let favicon = `${gmailIcon}${count}.png`
 
     if (emailCount) {
       title = `Inbox (${emailCount})`
@@ -84,7 +78,7 @@ class Chameleon {
     this.updateFavicon({ title, favicon})
   }
 
-  updateFavicon(data) {
+  updateFavicon (data) {
 
     let randomString = "?v=" + Math.round(Math.random() * 10000000)
     let link  = document.createElement('link')
@@ -98,7 +92,7 @@ class Chameleon {
     document.title = data.title
   }
 
-  enableService() {
+  enableService () {
     let i = Math.round(Math.random() * (this.enabledServices.length - 1))
     let service = this.enabledServices[i]
 
@@ -107,7 +101,7 @@ class Chameleon {
     }
   }
 
-  handleVisibilityChange() {
+  handleVisibilityChange () {
     if (document[this.hidden]) {
       this.enableService()
     } else {
