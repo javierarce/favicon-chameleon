@@ -1,7 +1,7 @@
 const SERVICES = {
   wikipedia: () => {
     let title = "Wikipedia";
-    let favicon = "/favicons/wikipedia.ico";
+    let favicon = "favicons/wikipedia.ico";
 
     return {
       title,
