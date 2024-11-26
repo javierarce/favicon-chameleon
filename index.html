@@ -1,27 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Favicon Chameleon. Makes your tab disappear when nobody is paying attention.</title>
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+  <title>Favicon Chameleon. Makes your tab disappear when nobody is paying attention.</title>
 
-    <link href="favicons/default.ico" rel="shortcut icon" type="image/x-icon">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="style.css">
+  <link href="favicons/default.ico" rel="shortcut icon" type="image/x-icon">
 
-    <script src="script.js" defer></script>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
 
-    <script type="text/javascript">
-      window.onload = () => {
-        new Chameleon(['twitter', 'gmail', 'tumblr'])
-      }
-    </script>
-  </head>  
-  <body>
-    <p>
-      Ok, now jump to another tab.
-    </p>
-  </body>
+  <script type="text/javascript">
+    window.onload = () => {
+      new Chameleon(['mastodon', 'bluesky', 'gmail', 'tumblr'])
+    }
+  </script>
+</head>
+
+<body>
+  <p>
+    Ok, now jump to another tab.
+  </p>
+</body>
+
 </html>
