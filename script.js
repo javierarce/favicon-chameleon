@@ -1,4 +1,14 @@
 const SERVICES = {
+  wikipedia: () => {
+    let title = "Wikipedia";
+    let favicon = "/favicons/wikipedia.ico";
+
+    return {
+      title,
+      favicon,
+    };
+  },
+
   tumblr: () => {
     let title = "Tumblr";
     let favicon = "favicons/tumblr.ico";
